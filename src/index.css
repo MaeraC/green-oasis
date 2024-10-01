@@ -810,3 +810,25 @@ footer .newsletter button {
       height: 250px;
     }
   }
+
+
+
+
+.loader {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader img  {
+    width: 150px;
+    height: 150px;
+}
+.loader p {
+    color: black;
+    font-family: "DM Serif Display";
+    font-size: 22px;
+}

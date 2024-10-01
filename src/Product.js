@@ -7,6 +7,7 @@ import garantie from "./assets/garantie.png"
 import Header from "./components/Header"
 import HeaderPage from "./components/HeaderPage"
 import Footer from "./components/Footer"
+import Loader from "./components/Loader"
 
 function Product() {
     const { index } = useParams()
@@ -23,7 +24,7 @@ function Product() {
     }
 
     if (!product) {
-        return <div>Loading...</div>; // METTRE LE LOADER 
+        return <Loader />
     }
 
     return (

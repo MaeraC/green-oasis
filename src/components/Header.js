@@ -11,7 +11,7 @@ function Header() {
                 <nav>
                     <Link to="/#">Accueil</Link>
                     <Link to="/toutes-nos-plantes">Plantes</Link>
-                    <Link to="/#bestsellers">Meilleures ventes</Link>
+                    <Link className="none" to="/#bestsellers">Meilleures ventes</Link>
                     <Link to="#">Contact</Link>
                 </nav>
             </div>

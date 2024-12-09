@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect, useState, useRef } from "react"
 import { Link } from "react-router-dom"
 
 function FilterPlants() {
@@ -8,7 +8,34 @@ function FilterPlants() {
     const [maxiPlants, setMaxisPlants] = useState([])
     const [flowers, setFlowers] = useState([])
     const [selectedFilter, setSelectedFilter] = useState("all")
-    const [priceFilter, setPriceFilter] = useState("");
+    const [priceFilter, setPriceFilter] = useState("")
+    const figuresRef = useRef([])
+
+    useEffect(() => {
+        const handleScroll = () => {
+          figuresRef.current.forEach((figure, index) => {
+            if (figure) {
+              const rect = figure.getBoundingClientRect();
+              const windowHeight = window.innerHeight;
+    
+              // Vérifier si l'élément est visible dans le viewport
+              if (rect.top < windowHeight - 20) {
+                setTimeout(() => {
+                    figure.classList.add("visible");
+                }, index * 200);
+              }
+            }
+          });
+        };
+    
+        // Ajouter un écouteur d'événement scroll
+        window.addEventListener("scroll", handleScroll);
+    
+        // Nettoyer l'écouteur lors du démontage
+        return () => {
+          window.removeEventListener("scroll", handleScroll);
+        };
+      }, [])
 
     useEffect(() => {
         fetchPlants()
@@ -74,7 +101,7 @@ function FilterPlants() {
                 })
                 .map((plant, index) => (
                     <Link to={`/product/${index}`} key={index}>
-                        <figure>
+                        <figure ref={(el) => (figuresRef.current[index] = el)}>
                             <img src={plant.url} alt={plant.name} />
                             <figcaption>
                                 <div className="name">

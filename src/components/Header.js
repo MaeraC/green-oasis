@@ -1,7 +1,8 @@
 
-import { Link } from "react-router-dom"
-import logo from "../assets/logo.png"
-import search from "../assets/search.png"
+import { Link }                 from "react-router-dom"
+import logo                     from "../assets/logo.png"
+import search                   from "../assets/search.png"
+import { HashLink }             from "react-router-hash-link"
 
 function Header() {
     return (
@@ -9,10 +10,10 @@ function Header() {
             <div className="navigation">
                 <img src={logo} alt="logo" /> 
                 <nav>
-                    <Link to="/#">Accueil</Link>
+                    <Link to="/">Accueil</Link>
                     <Link to="/toutes-nos-plantes">Plantes</Link>
-                    <Link className="none" to="/#bestsellers">Meilleures ventes</Link>
-                    <Link to="#">Contact</Link>
+                    <HashLink smooth to="/#bestsellers">Meilleures ventes</HashLink>
+                    <Link to="/contact">Contact</Link>
                 </nav>
             </div>
             <div className="search">

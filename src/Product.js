@@ -33,7 +33,7 @@ function Product() {
         <HeaderPage />
         <section className="product-page">
             <div className="product">
-                <img src={`.${product.url}`} alt={product.name} />
+                <img src={`.${product.url}`} alt={product.name} className="p-img" />
                 <div className="infos">
                     <div className="head">
                         <h1>{product.name}</h1>

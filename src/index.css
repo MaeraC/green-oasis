@@ -38,6 +38,7 @@ a:hover {
     width: 250px;
     cursor: pointer;
     border-radius: 5px;
+    text-transform: uppercase;
 }
 .button-colored:hover {
     background: #caffab;
@@ -212,17 +213,31 @@ header .search img{
 
 
 .avantages {
-    background: #1F3119;
+    background: url(assets/12.jpg) no-repeat;
+    background-size: cover;
     padding: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    position: relative;
+}
+.avantages::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, #1F3119, #1F3119, #1f3119ab);
+  z-index: 1
 }
 .avantages .box {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    position: relative;
+    z-index: 2;
 }
 .avantages .box div {
     margin-top: 30px;
@@ -239,6 +254,14 @@ header .search img{
     color: white;
     font-weight: 300;
     font-size: 14px;
+}
+@media screen and (max-width: 1400px) {
+  .avantages .box {
+    width: 20%;
+  }
+  .avantages img {
+    width: 45px;
+  }
 }
 @media screen and (max-width: 1024px) {
     .avantages {
@@ -405,6 +428,7 @@ footer {
     background: #1F3119;
     color: white;
     padding: 100px;
+    padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -487,7 +511,7 @@ footer .newsletter button {
     background: url(./assets/bg-header.jpg);
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 500px;
   }
   .header-page h1 {
     color: white;
@@ -500,6 +524,14 @@ footer .newsletter button {
     justify-content: center;
     align-items: center;
     background: #0000007e;
+  }
+  @media screen and (max-width: 1400px) {
+    .header-page {
+      background: url(./assets/bg-header.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+    }
   }
   @media screen and (max-width: 700px) {
     .header-page h1 {
@@ -571,6 +603,12 @@ footer .newsletter button {
   .results figure {
     width: 100%;
     height: 100%;
+
+    opacity: 0;
+    transition: opacity 0.6s ease;
+  }
+  .results figure.visible {
+    opacity: 1;
   }
   .results figure img {
     width: 100%;
@@ -667,8 +705,10 @@ footer .newsletter button {
     display: flex;
     justify-content: space-between;
   }
-  .product img {
+  .product .p-img {
     width: 45%;
+    height: 600px;
+    object-fit: contain;
   }
   .product .infos {
     width: 52%;
@@ -831,4 +871,176 @@ footer .newsletter button {
     color: black;
     font-family: "DM Serif Display";
     font-size: 22px;
+}
+
+
+
+
+
+.contact .content {
+  background: url(assets/12.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.contact .content::before {
+  content : "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1f3119e7;
+  z-index: 1;
+}
+.contact header {
+  background: #1F3119;
+}
+.contact .content .infos {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.contact .content .infos div {
+  background: white;
+  padding: 30px;
+  padding-top: 20px;
+  text-align: center;
+  width: 30%;
+  border-radius: 10px;
+}
+.contact .content .infos div h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 20px;
+}
+.contact .content .txt {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  width: 70%;
+}
+.contact .content form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.contact .content form input {
+  padding: 20px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-family: "Roboto";
+}
+.contact .content form label {
+  color: white;
+}
+.contact .content form textarea {
+  padding: 20px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  font-size: 15px;
+  font-family: "Roboto";
+  height: 100px;
+}
+.contact .button-colored {
+  margin-top: 30px;
+  width: 100%;
+}
+.contact .content .txt div {
+  width: 60%;
+}
+.contact .content .txt div h3 {
+  color: white;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #caffab;
+}
+.contact .content .txt div p {
+  color: white;
+  margin-bottom: 20px;
+  line-height: 28px;
+  width: 80%;
+}
+.contact .button {
+  background: white;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1400px){
+  .contact .content .infos div {
+    background: white;
+    padding: 20px 10px;
+  }
+  .contact .content .infos div img {
+    width: 40px;
+    height: 40px;
+  }
+  .contact .content .txt {
+    margin-top: 30px;
+    width: 80%;
+  }
+  .contact .content .txt div p {
+    line-height: 28px;
+    font-size: 14px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .contact .content .txt {
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 60%;
+  }
+  .contact .content form {
+    width: 80%;
+    margin-top: 50px;
+  }
+  .contact .content .txt div {
+    width: 100%;
+  }
+  .contact .content .txt .button {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .contact .content .infos {
+    width: 90%;
+  }
+  .contact .content .txt {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact .content .infos {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact .content .infos div {
+    width: 90%;
+    margin-bottom: 20px;
+  }
 }

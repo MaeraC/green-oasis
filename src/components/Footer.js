@@ -3,7 +3,7 @@ import logo from "../assets/logo.png"
 
 function Footer() {
     return (
-        <footer>
+        <footer id="footer">
             <div className="footer-logo">
                 <img src={logo} alt="logo" />
                 <p>Green Oasis</p>

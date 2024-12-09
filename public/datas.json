@@ -18,7 +18,7 @@
             "oldPrice": "36,99"
         },
         {
-            "url": "./assets/all-plants/fleurs/2.jpg",
+            "url": "./assets/all-plants/maxi-format/4.jpg",
             "name": "Hybride de thé",
             "price": "13,99",
             "oldPrice": "18,99"  }
@@ -37,13 +37,13 @@
             "oldPrice": "14,99"
           },
         {
-            "url": "./assets/all-plants/mini-format/2.jpg",
+            "url": "./assets/all-plants/maxi-format/3.jpg",
             "name": "Gommier cidre ",
             "price": "17,99",
             "oldPrice": "23,99"
          },
         {
-            "url": "./assets/all-plants/maxi-format/2.jpg",
+            "url": "./assets/all-plants/maxi-format/4.jpg",
             "name": "Monstera",
             "price": "42,99",
             "oldPrice": "48,99"
@@ -62,13 +62,6 @@
             "price": "14,99",
             "oldPrice": "18,99",
             "description": "La Monstera, également connue sous le nom de Monstera deliciosa, est une plante d'intérieur populaire originaire des régions tropicales d'Amérique centrale et du Sud. Elle se distingue par ses grandes feuilles en forme de cœur avec des perforations décoratives, lui donnant un aspect exotique et esthétique. La Monstera est une plante grimpante qui peut développer des racines aériennes et s'accrocher à des supports. Elle est appréciée pour sa facilité d'entretien et sa capacité à purifier l'air intérieur. Ses feuilles luxuriantes et sa présence tropicale en font un choix prisé pour décorer les espaces intérieurs."
-        },
-        {
-            "url": "./assets/all-plants/mini-format/2.jpg",
-            "name": "Gommier cidre ",
-            "price": "17,99",
-            "oldPrice": "23,99",
-            "description": "Le gommier cidre, également connu sous le nom de Corymbia citriodora, est un arbre originaire d'Australie. Il est apprécié pour son écorce lisse et aromatique ainsi que pour son feuillage vert foncé et brillant qui dégage une agréable odeur de citronnelle. Cet arbre à croissance rapide peut atteindre une hauteur impressionnante et est souvent utilisé dans l'aménagement paysager pour créer de l'ombre et offrir un habitat aux oiseaux. Ses feuilles sont également utilisées pour leurs propriétés répulsives contre les insectes."
         },
         {
             "url": "./assets/all-plants/mini-format/3.jpg",
@@ -90,13 +83,6 @@
             "price": "12,99",
             "oldPrice": "16,99",
             "description": "Le palmier nain, également connu sous le nom scientifique de Chamaedorea elegans, est une plante d'intérieur populaire originaire du Mexique et de l'Amérique centrale. Il est apprécié pour son apparence élégante et son feuillage luxuriant composé de petites feuilles pennées d'un vert vif. Le palmier nain est considéré comme une plante d'intérieur idéale car il est relativement petit, atteignant généralement une hauteur maximale de 1 à 2 mètres, ce qui le rend adapté à une culture en pot dans les espaces intérieurs. Il prospère dans des conditions de lumière indirecte vive et préfère un sol légèrement humide. Avec ses caractéristiques esthétiques attrayantes et sa facilité d'entretien, le palmier nain est un choix populaire pour apporter une touche tropicale et une ambiance paisible à l'intérieur des maisons, des bureaux et des espaces de vie."
-        },
-        {
-            "url": "./assets/all-plants/mini-format/6.jpg",
-            "name": "Pothos argenté ",
-            "price": "16,99",
-            "oldPrice": "23,99",
-            "description": "Le pothos argenté, connu scientifiquement sous le nom d'Epipremnum aureum 'Marble Queen', est une plante d'intérieur prisée pour son feuillage attrayant et son entretien facile. Originaire des régions tropicales d'Asie du Sud-Est, il présente de grandes feuilles en forme de cœur marbrées de nuances de vert, de blanc crème et de gris argenté, d'où son nom 'argenté'. Le pothos argenté est réputé pour sa capacité à s'adapter à différentes conditions de luminosité, allant de la lumière indirecte à la faible luminosité, ce qui en fait une excellente plante d'intérieur pour les espaces moins éclairés. De plus, il est relativement tolérant à la sécheresse et peut survivre à des périodes d'oubli d'arrosage occasionnel. En plus de son attrait esthétique, le pothos argenté est également connu pour ses propriétés de purification de l'air, aidant à éliminer les toxines courantes présentes dans les espaces intérieurs. Que ce soit dans des suspensions, des pots suspendus ou des étagères, le pothos argenté ajoute une touche de verdure élégante et délicate à tout intérieur, tout en étant facile à entretenir, même pour les jardiniers débutants."
         },
         {
             "url": "./assets/all-plants/mini-format/7.jpg",
@@ -135,27 +121,11 @@
             "description": "Le nopal, également connu sous le nom de figuier de Barbarie, est un cactus résistant originaire des régions désertiques. Il est apprécié pour ses pads comestibles et ses fruits appelés 'figues de Barbarie'. Le nopal a des propriétés médicinales et est capable de prospérer dans des conditions arides. C'est une plante polyvalente et rustique."
         },
         {
-            "url": "./assets/all-plants/mini-format/12.jpg",
-            "name": "Sansevieria",
-            "price": "13,99",
-            "oldPrice": "17,99",
-            "description": "La sansevieria, également connue sous le nom de 'langue de belle-mère' ou 'serpent de la mère-in-law', est une plante d'intérieur populaire et facile à entretenir. Originaire d'Afrique et d'Asie, elle se caractérise par ses feuilles épaisses et dressées, disponibles dans une variété de couleurs et de motifs. La sansevieria peut survivre dans des conditions de faible luminosité et tolère la sécheresse. De plus, elle est réputée pour purifier l'air intérieur en éliminant les toxines courantes. Avec son apparence attrayante et sa robustesse, la sansevieria est un excellent choix pour apporter une touche de verdure à n'importe quel intérieur."
-        
-        },
-        {
             "url": "./assets/all-plants/maxi-format/1.jpg",
             "name": "Ficus",
             "price": "53,99",
             "oldPrice": "63,99",
             "description": "Le ficus est une plante d'intérieur populaire appréciée pour son feuillage luxuriant et son adaptabilité. Il existe de nombreuses variétés de ficus, mais le Ficus benjamina est l'une des plus courantes. Le ficus se distingue par ses feuilles brillantes et vertes qui varient en forme selon les variétés, allant de petites feuilles ovales à de grandes feuilles en forme de violon. Il est souvent cultivé comme plante d'intérieur en raison de sa capacité à s'adapter à une grande variété de conditions d'éclairage, allant de la lumière indirecte à la lumière vive. Certains ficus peuvent également être cultivés à l'extérieur dans des climats chauds et tropicaux. Le ficus nécessite un arrosage régulier, en veillant à ne pas trop l'arroser pour éviter la pourriture des racines. Il est préférable de laisser sécher le sol entre les arrosages. Le ficus est apprécié pour son aspect esthétique, ajoutant une touche de verdure et de sophistication à tout intérieur. C'est une plante polyvalente qui peut être utilisée comme plante d'accent, en haie ou même en bonsaï."
-        },
-        {
-            "url": "./assets/all-plants/maxi-format/2.jpg",
-            "name": "Monstera",
-            "price": "42,99",
-            "oldPrice": "48,99",
-            "description": "La Monstera, également connue sous le nom de Monstera deliciosa, est une plante d'intérieur populaire originaire des régions tropicales d'Amérique centrale et du Sud. Elle se distingue par ses grandes feuilles en forme de cœur avec des perforations décoratives, lui donnant un aspect exotique et esthétique. La Monstera est une plante grimpante qui peut développer des racines aériennes et s'accrocher à des supports. Elle est appréciée pour sa facilité d'entretien et sa capacité à purifier l'air intérieur. Ses feuilles luxuriantes et sa présence tropicale en font un choix prisé pour décorer les espaces intérieurs."
-       
         },
         {
             "url": "./assets/all-plants/maxi-format/3.jpg",
@@ -172,14 +142,7 @@
             "description": "La Monstera, également connue sous le nom de Monstera deliciosa, est une plante d'intérieur populaire originaire des régions tropicales d'Amérique centrale et du Sud. Elle se distingue par ses grandes feuilles en forme de cœur avec des perforations décoratives, lui donnant un aspect exotique et esthétique. La Monstera est une plante grimpante qui peut développer des racines aériennes et s'accrocher à des supports. Elle est appréciée pour sa facilité d'entretien et sa capacité à purifier l'air intérieur. Ses feuilles luxuriantes et sa présence tropicale en font un choix prisé pour décorer les espaces intérieurs."
        
         },
-        {
-            "url": "./assets/all-plants/maxi-format/5.jpg",
-            "name": "Monstera",
-            "price": "42,99",
-            "oldPrice": "52,99",
-            "description": "La Monstera, également connue sous le nom de Monstera deliciosa, est une plante d'intérieur populaire originaire des régions tropicales d'Amérique centrale et du Sud. Elle se distingue par ses grandes feuilles en forme de cœur avec des perforations décoratives, lui donnant un aspect exotique et esthétique. La Monstera est une plante grimpante qui peut développer des racines aériennes et s'accrocher à des supports. Elle est appréciée pour sa facilité d'entretien et sa capacité à purifier l'air intérieur. Ses feuilles luxuriantes et sa présence tropicale en font un choix prisé pour décorer les espaces intérieurs."
-       
-        },
+ 
         {
             "url": "./assets/all-plants/maxi-format/8.jpg",
             "name": "Monstera",
@@ -227,25 +190,11 @@
             "description": "La saintpaulia, également connue sous le nom de violette africaine, est une plante d'intérieur facile à entretenir. Elle présente des feuilles rondes et charnues ainsi que des fleurs colorées qui ajoutent une touche de beauté à tout intérieur. La saintpaulia préfère la lumière indirecte et un arrosage régulier, et elle fleurit pendant une longue période. C'est une plante compacte et attrayante qui apporte une ambiance agréable à l'espace intérieur."
         },
         {
-            "url": "./assets/all-plants/fleurs/2.jpg",
-            "name": "Hybride de thé",
-            "price": "13,99",
-            "oldPrice": "18,99",
-            "description": "Les hybrides de thé sont des roses cultivées pour leur élégance et leur charme. Elles se distinguent par leurs grandes fleurs solitaires aux pétales bien formés et à la palette de couleurs variées, allant du blanc au rose, au rouge et à l'orange. Leur parfum envoûtant ajoute une touche de délicatesse et crée une ambiance agréable dans les jardins et les bouquets. Les hybrides de thé préfèrent un ensoleillement abondant et nécessitent un arrosage régulier et des soins appropriés pour offrir une floraison généreuse. Leur beauté raffinée en fait un choix prisé pour ajouter une touche de sophistication et de couleur vibrante aux espaces paysagers et aux arrangements floraux."
-        },
-        {
             "url": "./assets/all-plants/fleurs/5.jpg",
             "name": "Capanule du Texas",
             "price": "13,99",
             "oldPrice": "18,99",
             "description": "La Canapule du Texas (Leucophyllum frutescens) est un arbuste résistant originaire du sud-ouest des États-Unis et du nord du Mexique. Elle présente un feuillage argenté et des fleurs violettes ou bleu-violet parfumées qui s'épanouissent après les pluies. C'est une plante adaptée aux climats chauds et secs, ajoutant de la couleur et de la vitalité aux jardins."
-        },
-        {
-            "url": "./assets/all-plants/fleurs/6.jpg",
-            "name": "Tulipes",
-            "price": "14,99",
-            "oldPrice": "18,99",
-            "description": "Les tulipes sont des fleurs emblématiques du printemps, appréciées pour leurs couleurs vives et leur élégance. Elles ajoutent une touche de beauté éphémère aux jardins et aux bouquets. Les tulipes nécessitent un sol bien drainé, une exposition ensoleillée et un arrosage régulier."
         },
         {
             "url": "./assets/all-plants/fleurs/7.jpg",

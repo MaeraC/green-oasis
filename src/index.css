@@ -1066,4 +1066,7 @@ footer .newsletter button {
     width: 90%;
     margin-bottom: 20px;
   }
+  .contact .content form {
+    width: 100%;
+  }
 }

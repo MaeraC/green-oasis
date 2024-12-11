@@ -818,6 +818,9 @@ footer .newsletter button {
     .product .infos {
       width: 100%;
     }
+    .product-page {
+      padding: 30px;
+    }
   }
   @media screen and (max-width: 600px) {
     .product .p-img {
